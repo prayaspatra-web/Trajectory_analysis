@@ -11,9 +11,6 @@ Developed to investigate concentrated chloroaluminate ionic liquid electrolytes 
 ```text
 Trajectory_analysis/
 ├── README.md
-├── Makefile
-├── requirements.txt
-├── .gitignore
 ├── conductivity/
 │   ├── eh_conductivity.cpp     # OpenMP Einstein-Helfand & species MSD trajectory kernel
 │   └── slope.py                # Diffusive regime verification, EH/NE conductivity, Haven ratio & block convergence
