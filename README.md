@@ -11,12 +11,12 @@ Developed to investigate concentrated chloroaluminate ionic liquid electrolytes 
 ```text
 Trajectory_analysis/
 ├── README.md
-├── conductivity/
+├── Conductivity/
 │   ├── eh_conductivity.cpp     # OpenMP Einstein-Helfand & species MSD trajectory kernel
 │   └── slope.py                # Diffusive regime verification, EH/NE conductivity, Haven ratio & block convergence
-├── viscosity/
+├── Viscosity/
 │   └── gk_viscosity.cpp        # OpenMP Green-Kubo stress-tensor autocorrelation viscosity calculator
-├── structure_dynamics/
+├── Structural_analysis/
 │   ├── rdf_site_200ns.cpp      # Multi-threaded site-site RDF & coordination number analyzer
 │   └── hbond_lifetime.cpp      # Intermittent & continuous hydrogen-bond autocorrelation lifetime
 └── examples/
